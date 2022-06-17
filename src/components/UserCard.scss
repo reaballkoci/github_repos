@@ -1,0 +1,48 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(58, 70, 13, 0.4);
+  transition: 0.5s;
+  width: 15%;
+  margin: 20px 20px 20px 20px;
+
+  .container {
+    padding: 2px 16px;
+    font-size: 1.3vw;
+    color: rgba(209, 255, 23, 0.897);
+    display: flex;
+    align-items: center;
+
+    .icon {
+      color: rgb(145, 255, 0);
+      width: 20%;
+    }
+
+    .login {
+      width: 120px;
+      margin-left: 3px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(209, 255, 23, 0.897);
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    margin: 10px 10px 10px 10px;
+    width: 40%;
+  }
+  .login {
+    font-size: 2vw;
+  }
+  .icon {
+    font-size: 2vw;
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  color: #ffd52d;
+}
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.author-name {
+  margin-top: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.repositories {
+  margin-left: 30vw;
+  margin-top: -250px;
+}
+
+@media screen and (max-width: 800px) {
+  .repositories {
+    margin: 30px 0 0 0;
+  }
+}
